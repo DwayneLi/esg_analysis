@@ -1,0 +1,11 @@
+Symbol,Security,GICS Sector,GICS Sub-Industry,ESG_Score,ESG_Risk,ESG_Percentile,Environment_Risk,Social_Risk,Governance_Risk,Controversy_comment,Controversy_level,Peer_Controversy_level,date
+MMM,3M Company,Industrials,Industrial Conglomerates,35,High,72nd percentile,12.8,14.0,8.1,Significant,3.0,2.2,2020-10-22
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,30,Medium,56th percentile,3.0,16.2,10.6,Significant,3.0,None,2020-10-22
+ABBV,AbbVie Inc.,Health Care,Pharmaceuticals,31,High,60th percentile,1.0,18.1,11.8,Significant,3.0,1.9,2020-10-22
+ABMD,ABIOMED Inc,Health Care,Health Care Equipment,None,None,None,None,None,None,None,,None,2020-10-22
+ACN,Accenture plc,Information Technology,IT Consulting & Other Services,11,Low,2nd percentile,0.6,5.0,5.7,Moderate,2.0,1.5,2020-10-22
+ATVI,Activision Blizzard,Communication Services,Interactive Home Entertainment,17,Low,11th percentile,0.2,10.5,6.2,Moderate,2.0,1.5,2020-10-22
+ADBE,Adobe Inc.,Information Technology,Application Software,13,Low,4th percentile,0.4,7.9,4.9,Low,1.0,1.5,2020-10-22
+AMD,Advanced Micro Devices Inc,Information Technology,Semiconductors,None,None,None,None,None,None,None,,None,2020-10-22
+AAP,Advance Auto Parts,Consumer Discretionary,Automotive Retail,12,Low,3rd percentile,0.1,8.7,3.6,Moderate,2.0,1.7,2020-10-22
+AES,AES Corp,Utilities,Independent Power Producers & Energy Traders,33,High,67th percentile,18.8,8.6,5.8,Moderate,2.0,1.8,2020-10-22

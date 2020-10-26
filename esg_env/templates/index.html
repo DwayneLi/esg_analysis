@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        ESG Score for Company, Sub Industry and Industry
+    </title>
+    <h1>
+        ESG Score for Company, Sub Industry and Industry
+    </h1>
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+</head>
+<body>
+    <h2>Example: Ten companies with ESG score</h2>
+
+    <p>{{ example|length }} companes' detail</p>
+    <table class="company-list">
+        <tr>
+            <td>Company Symbol</td>
+            <td>Company Name</td>
+            <td>ESG Risk Score</td>
+            <td>ESG Risk Percentile </td>
+            <td>ESG Risk Comment </td>
+        </tr>
+        {% for esg in example %}
+        <tr>
+            <td>{{ esg.Symbol }}</td>
+            <td>{{ esg.Security_name }}</td>
+            <td>{{ esg.ESG_Score }}</td>
+            <td>{{ esg.ESG_Percentile}}</td>
+            <td>{{ esg.ESG_Risk }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
+
